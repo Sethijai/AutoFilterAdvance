@@ -97,12 +97,12 @@ async def next_page(bot, query):
     elif off_set is None:
         btn.insert(0,
             [
-                InlineKeyboardButton("Updates", url="https://t.me/VJ_Botz"),
+                InlineKeyboardButton("Updates", url="https://t.me/OPMASTERLECTURE"),
             ]
         )
         btn.insert(1,
             [
-                InlineKeyboardButton("🍿 YouTube Channel 🍿", url="https://youtube.com/@Tech_VJ"),
+                InlineKeyboardButton("🍿 YouTube Channel 🍿", url="https://youtube.com/@TEAM_OPMASTER"),
             ]
         )
         btn.append(
@@ -144,7 +144,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit("<b>📍 Movie Not available Reasons\n\n<i>1) O.T.T Or DVD Not Released\n\n2) Type Name With Year</i> \n\n3) Movie Is Not Available in the database Say In Our Other Group To Get This Movies\n\n<a href='https://t.me/Group_Linkzzzz'>Our Groups</a></b>")
+            k = await query.message.edit("<b>📍 VIDEO Not available Reasons\n\n<i>1) Not Added Yet\n\n2) NOT COMING</i> \n\n3) VIDEO Is Not Available in the database for adding contact us\n\n<a href='http://t.me//talktoHACKHEIST_BOT'>Contact here</a></b>")
             await asyncio.sleep(10)
             await k.delete()
 
@@ -413,9 +413,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('💝 Subscribe YouTube Channel 💗', url=f'http://youtube.com/@Tech_VJ')
+            InlineKeyboardButton('💝 Subscribe YouTube Channel 💗', url=f'https://youtube.com/@TEAM_OPMASTER')
             ],[
-            InlineKeyboardButton('♻️ Update Channel ♻️', url=f'https://t.me/VJ_Botz')
+            InlineKeyboardButton('♻️ Update Channel ♻️', url=f'https://t.me/OPMASTERLECTURE')
             ],[
             InlineKeyboardButton('ℹ️ 𝙷𝚎𝚕𝚙', callback_data='help'),
             InlineKeyboardButton('😊 𝙰𝚋𝚘𝚞𝚝', callback_data='about')
@@ -670,12 +670,12 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton("Update Channel", url="https://t.me/VJ_Botz"),
+            InlineKeyboardButton("Update Channel", url="https://t.me/OPMASTERLECTURE"),
         ]
     )
     btn.insert(1,
         [
-            InlineKeyboardButton("YouTube Channel", url="https://youtube.com/@Tech_VJ"),
+            InlineKeyboardButton("YouTube Channel", url="ttps://youtube.com/@TEAM_OPMASTER"),
         ]
     )
 
